@@ -92,7 +92,7 @@ services:
         condition: on-failure
 
   mikrotik-exporter:
-    image: devin/test:latest
+    image: devinsmith/mikrotik-stats:latest
     volumes:
       - ./exporter-config/:/etc/config/
     networks:
