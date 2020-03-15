@@ -1,0 +1,19 @@
+devices:
+  - name: my_router
+    address: REDACTED
+    user: REDACTED
+    password: REDACTED
+
+features:
+  bgp: true
+  dhcp: true
+  dhcpv6: true
+  dhcpl: true
+  routes: true
+  pools: true
+  monitor: true
+  health: true
+  resource: true
+  interface: true
+  health: true
+  pool: true
